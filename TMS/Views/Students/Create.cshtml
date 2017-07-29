@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "Create";
+    
+}
+
+<form id="StudentCreateForm" name="StudentCreateForm" method="POST">
+
+    <input type="button" id="savebtn" value="Save" name="saveBtn"/>
+    <select id="StudentNameDropdown" name="StudentNameDropdown">
+        <option id="">---Select---</option>
+    </select>
+    
+    <input type="number" id="NumberOne" name="NumberOne"/>
+    <input type="number" id="NumberTwo" name="NumberTwo"/>
+    
+    <div id="myDiv"></div>
+
+</form>
+
+@section scripts{
+    
+<script src="~/Scripts/TMS/StudentCreate.js"></script>
+}
